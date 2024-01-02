@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Actividad3-3</string>
+    <string name="button">Facturar</string>
+    <string name="cambio_de">Cambio de: $</string>
+    <string name="price_example">10000</string>
+    <string name="producto">%1$s</string>
+    <string name="todo">TODO</string>
+    <string name="price_default">0</string>
+    <string name="price_default_text">0</string>
+    <string name="todo_add">TODO</string>
+    <string name="precio_label">Precio: $</string>
+    <string name="price_value">%1$s</string>
+</resources>

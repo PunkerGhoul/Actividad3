@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Actividad3-1</string>
+    <string name="codigo">Código</string>
+    <string name="apellidos">Apellidos</string>
+    <string name="nombres">Nombres</string>
+    <string name="enviar">Enviar</string>
+    <string name="result">Código: %1$s\nNombres: %2$s\nApellidos: %3$s</string>
+</resources>

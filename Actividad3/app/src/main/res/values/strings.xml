@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Actividad3</string>
+    <string name="actividad_3">Actividad 3</string>
+    <string name="actividad_2">Actividad 2</string>
+    <string name="actividad_1">Actividad 1</string>
+    <string name="button">Facturar</string>
+    <string name="cambio_de">Cambio de: $</string>
+    <string name="price_example">10000</string>
+    <string name="producto">%1$s</string>
+    <string name="todo">TODO</string>
+    <string name="price_default">0</string>
+    <string name="price_default_text">0</string>
+    <string name="todo_add">TODO</string>
+    <string name="precio_label">Precio: $</string>
+    <string name="price_value">%1$s</string>
+    <string name="n_mero">Número:</string>
+    <string name="calcular">Calcular</string>
+    <string name="hint_edit_text_num">Inserte un número</string>
+    <string name="result_par_impar">%1$s es %2$s!</string>
+    <string name="codigo">Código</string>
+    <string name="apellidos">Apellidos</string>
+    <string name="nombres">Nombres</string>
+    <string name="enviar">Enviar</string>
+    <string name="result">Código: %1$s\nNombres: %2$s\nApellidos: %3$s</string>
+    <string name="home">home</string>
+</resources>

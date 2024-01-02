@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Actividad3-2</string>
+    <string name="n_mero">Número:</string>
+    <string name="calcular">Calcular</string>
+    <string name="hint_edit_text_num">Inserte un número</string>
+    <string name="result_par_impar">%1$s es %2$s!</string>
+</resources>

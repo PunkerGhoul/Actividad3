@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ListView
+        android:id="@+id/listViewProducts"
+        android:layout_width="311dp"
+        android:layout_height="335dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="60dp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonFacturar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonFacturar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="34dp"
+        android:text="@string/button"
+        app:layout_constraintBottom_toBottomOf="@+id/editTextNumberDecimal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/editTextNumberDecimal"
+        app:layout_constraintTop_toTopOf="@+id/editTextNumberDecimal" />
+
+    <TextView
+        android:id="@+id/textViewFactura"
+        android:layout_width="317dp"
+        android:layout_height="203dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextNumberDecimal"
+        android:layout_width="84dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="50dp"
+        android:ems="10"
+        android:hint="@string/price_example"
+        android:importantForAutofill="no"
+        android:inputType="numberDecimal"
+        android:labelFor="@+id/textViewChangeFor"
+        android:textColorHint="#757575"
+        app:layout_constraintBottom_toBottomOf="@+id/textViewChangeFor"
+        app:layout_constraintEnd_toStartOf="@+id/buttonFacturar"
+        app:layout_constraintStart_toEndOf="@+id/textViewChangeFor"
+        app:layout_constraintTop_toTopOf="@+id/textViewChangeFor" />
+
+    <TextView
+        android:id="@+id/textViewChangeFor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="39dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginBottom="44dp"
+        android:text="@string/cambio_de"
+        app:layout_constraintBottom_toTopOf="@+id/textViewFactura"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/listViewProducts" />
+</androidx.constraintlayout.widget.ConstraintLayout>
